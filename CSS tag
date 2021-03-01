@@ -1,0 +1,32 @@
+body {background-color: whitesmoke;}
+h1,h2,h3,h4,p {text-align:right; color:orange;}
+div {background-color: white;}
+div.first {opacity: o.1;}
+    div.second {opacity: .3;}
+        body {background-image:url("win match.jpg");
+      background-repeat: no-repeat;
+       background-position:right top;
+       background-attachment: fixed;}
+         p {font-size: 35px;}
+                         p.dotted {border-style: dotted;}
+                     p.dashed {border-style: dashed;}
+                         p.double {border-style: double;}
+                     p.inset {border-style: inset;}
+                     p.groove {border-style: groove;}
+                     p.ridge {border-style: ridge;}
+       P.mix {border-style: dotted solid ridge double;}
+       p.one  {border-style: solid;
+              border-width: 3px 15px;/* 3px are top & buttom side & 15px are right & lift side*/
+               border-color: green yellow red indigo; /*green top,yellow right & 
+            red buttom , indigo lift */
+        p.two  {border-style: groove;
+               border-width: 10px 25px;/* 10px are top & buttom side & 25px are right & lift side*/
+                border-color: lightyellow;}
+       p.three  {border-style: double;
+              border-width: 6px 10px;/* 6px are top & buttom side & 10px are right & lift side*/
+             border-color: lawngreen;}
+       p.four {
+           border-style: solid dotted groove double;
+           border-width: 20px 30px;
+           border-color: green;
+       }
